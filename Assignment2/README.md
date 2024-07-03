@@ -2,7 +2,7 @@ SMU VIRT DATA Assignment #2
 Kyle Chou
 Screen Shots of result and Separate VBA file in this folder
 Copy of the code in VBA file is below
-
+'
 Sub assig2():
     Dim ws As Worksheet
     'iter for each row
@@ -101,3 +101,4 @@ Sub assig2():
         
     Next ws
 End Sub
+'
