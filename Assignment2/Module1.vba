@@ -2,9 +2,9 @@ Attribute VB_Name = "Module1"
 Sub assig2():
     Dim ws As Worksheet
     'iter for each row
-    Dim i As Integer
+    Dim i As Long
     'count for last row
-    Dim rowC As Integer
+    Dim rowC As Long
     'loop for each worksheet
     For Each ws In Worksheets
         rowC = ws.Range("A1", ws.Range("A1").End(xlDown)).Rows.Count
